@@ -1,0 +1,17 @@
+Before :
+	Fichier auteur présent ? 
+	Norme ?
+	Flags a la compilation
+	Executable avec le bon nom
+	Fonctions autorisées / interdites (nm -u)
+
+Si prends le nom d'un fichier :
+	test fichier vide
+	test fichier interdit en droits
+ 
+Si prends des valeurs : 
+	test valeurs correctes
+	test valeurs incorrectes, incohérantes
+	test min-max, valeurs superieurs inferieurs
+	test grosse prise de valeurs(grande map, grand nombre de coups, gros champion, ...)
+
