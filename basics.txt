@@ -1,17 +1,28 @@
+Eliminatoire : segfault, fonctions interdites, boucles infinies, norme, leaks, triche
+
 Before :
 	Fichier auteur présent ? 
 	Norme ?
 	Flags a la compilation
 	Executable avec le bon nom
 	Fonctions autorisées / interdites (nm -u)
+	check memalloc/strnew si libft
+
+Si prends des valeurs : 
+	test sans paramettres
+	test trop de parqmettres
+	test flags (juste tiret, plusieur fois le meme flag, flag incorrect)
+	test valeurs correctes
+	test valeurs incorrectes, incohérantes
+	test min-max, valeurs superieurs/inferieurs
+	test grosse prise de valeurs(grande map, grand nombre de coups, gros champion, ...)
 
 Si prends le nom d'un fichier :
 	test fichier vide
 	test fichier interdit en droits
- 
-Si prends des valeurs : 
-	test valeurs correctes
-	test valeurs incorrectes, incohérantes
-	test min-max, valeurs superieurs inferieurs
-	test grosse prise de valeurs(grande map, grand nombre de coups, gros champion, ...)
+	Dev random ?
+	test fichier modifié (test par projet)
 
+check_code : 
+	Sturcture globale => debut du code, etapes, fin
+	fonctions => prendre une fonction/etape et l'expliquer
