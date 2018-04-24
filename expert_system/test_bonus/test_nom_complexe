@@ -1,0 +1,9 @@
+Jean => Carole
+Alice + Carole => Dominique
+Dominique + Cindy => Mark
+Pierre + Pascale <=> Cindy
+Pierre + Pascale ^ Dominique | Alice => Bob
+!Pierre + (Pascale ^ Dominique | Alice) => Bob
+
+=JeanAlicePierre    Pascale
+?Bob
