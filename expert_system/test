@@ -1,0 +1,16 @@
+Jean => Carole
+Alice + Carole => Dominique
+
+=JeanAlice
+?Dominique
+
+#(   !A + B | C    ) ^ (( D + D + U )) | (!((!( T | R ^ E )  )  )  )  | C ^ D   => Coucou
+#!A + (B | C + E ^ D) + D + Coucou | Coucou | R ^ E => Coucou
+#!A + B | C ^ D + D + U | T | R ^ E | C ^ D + D + U | T | R ^ E | C ^ D + D + U | T | R ^ E + D + U | T | R ^ E => Coucou
+#((!A + B) | C) ^ ((D + D + U) | T | R) ^ (E | C) ^ (D + D + (U | T | R)) ^ (E | C) ^ ((D + D + U) | T | R) ^ ((E + D + U) | T | R) ^ E => Coucou
+#!A + B | C ^ D + D + U | T | R ^ E | C ^ D + D + U | T => G
+#((!A + B) | C) ^ ((D + D + U) | T | R) ^ (E | C) ^ (D + D + (U | T | R)) ^ (E | C) ^ ((D + D + U) | T | R) ^ ((E + D + U) | T | R) ^ E | E | C ^ D + D + U | T | R ^ E | C ^ D + D + U | T => Coucou
+
+
+
+# false tests simples

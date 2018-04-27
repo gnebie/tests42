@@ -1,0 +1,6 @@
+verification du makefile :
+		nasm
+		.s
+		libfts.a
+
+
